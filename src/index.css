@@ -1,0 +1,197 @@
+:root {
+  --teal-900: #0e3b3e;
+  --teal-700: #14606a;
+  --teal-500: #1d8a8f;
+  --teal-100: #d7ecec;
+  --cream: #faf6ef;
+  --cream-2: #f3ecdf;
+  --gold: #c9a227;
+  --ink: #22312e;
+  --muted: #5c6b68;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--teal-900);
+  line-height: 1.25;
+}
+
+h2 { font-size: 1.8rem; margin: 0 0 1rem; }
+
+a { color: var(--teal-700); }
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: var(--cream);
+  border-bottom: 1px solid var(--teal-100);
+}
+
+.navbar-brand {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: var(--teal-700);
+}
+
+.navbar-links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.navbar-links a:hover { color: var(--teal-700); }
+
+/* Hero */
+.hero {
+  padding: 4rem 1.5rem;
+  background: linear-gradient(160deg, var(--teal-900), var(--teal-700));
+  color: var(--cream);
+  text-align: center;
+}
+
+.hero h1 { color: var(--cream); font-size: 2.6rem; margin: 0.25rem 0; }
+
+.hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.8rem;
+  color: var(--teal-100);
+  margin: 0;
+}
+
+.hero-title { font-size: 1.2rem; margin: 0.25rem 0; color: var(--gold); }
+
+.hero-subtitle { max-width: 46rem; margin: 0.5rem auto; color: var(--teal-100); }
+
+.hero-tagline {
+  max-width: 42rem;
+  margin: 1.25rem auto;
+  font-style: italic;
+  color: var(--cream);
+  border-left: 3px solid var(--gold);
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.hero-ctas { margin-top: 1.5rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none;
+  margin: 0 0.35rem;
+  font-weight: 600;
+}
+
+.btn-primary { background: var(--gold); color: var(--teal-900); }
+.btn-outline { border: 1px solid var(--cream); color: var(--cream); }
+
+/* Sections */
+.section { padding: 3rem 1.5rem; max-width: 60rem; margin: 0 auto; }
+
+.lead { max-width: 46rem; }
+
+.chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+
+.chip {
+  background: var(--teal-100);
+  color: var(--teal-900);
+  padding: 0.3rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+/* Timeline */
+.timeline { position: relative; margin-top: 1.5rem; padding-left: 1.5rem; }
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.35rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--teal-100);
+}
+
+.timeline-item { position: relative; margin-bottom: 2rem; }
+
+.timeline-marker {
+  position: absolute;
+  left: -1.5rem;
+  top: 0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 2px solid var(--cream);
+}
+
+.timeline-content {
+  background: #fff;
+  border: 1px solid var(--teal-100);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+
+.timeline-period { color: var(--teal-700); font-weight: 600; margin: 0; font-size: 0.9rem; }
+
+.timeline-org { color: var(--muted); margin: 0.15rem 0 0.75rem; }
+
+.timeline-content ul { margin: 0; padding-left: 1.25rem; }
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--teal-100);
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+
+.card h3 { margin: 0 0 0.35rem; }
+
+.card-sub { color: var(--muted); margin: 0; }
+
+.card-date { color: var(--gold); font-weight: 600; margin: 0.35rem 0 0; }
+
+.card-license { border-left: 4px solid var(--gold); }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--teal-900);
+  color: var(--teal-100);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .navbar { flex-direction: column; gap: 0.5rem; }
+  .navbar-links a { margin-left: 0.5rem; }
+  .hero h1 { font-size: 2rem; }
+}
