@@ -5,7 +5,7 @@ export const profile = {
   title: 'Criminal Justice Program Manager',
   subtitle: 'Licensed Clinical Mental Health Counselor Supervisor · Licensed Clinical Addiction Specialist (Clinical Supervisor-Intern)',
   location: 'Durham, NC',
-  address: '308 Reynolds Avenue, Durham, NC 27707',
+  address:'Durham, NC',
   phone: '919-599-5513',
   email: 'crshaw@dconc.gov',
   tagline:
