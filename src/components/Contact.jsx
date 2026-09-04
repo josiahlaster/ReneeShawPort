@@ -19,6 +19,10 @@ export default function Contact() {
                 <a href={`mailto:${practice.email}`}>{practice.email}</a>
               </li>
               <li>
+                <span className="contact-label">Phone</span>
+                <a href={practice.phoneHref}>{practice.phone}</a>
+              </li>
+              <li>
                 <span className="contact-label">Location</span>
                 <p>{practice.location} · By appointment</p>
               </li>

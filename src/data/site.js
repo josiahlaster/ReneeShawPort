@@ -5,6 +5,8 @@ export const practice = {
   tagline: 'Counseling · Supervision · Consulting',
   location: 'Durham, North Carolina',
   email: 'info@mindsmithconsulting.org',
+  phone: '(919) 599-5513',
+  phoneHref: 'tel:+19195995513',
 };
 
 export const clinician = {
@@ -134,7 +136,7 @@ export const steps = [
     num: '1',
     title: 'Reach out',
     detail:
-      'Email Mind Smith Consulting for a confidential conversation about what you are hoping for.',
+      'Call or email Mind Smith Consulting for a confidential conversation about what you are hoping for.',
   },
   {
     num: '2',

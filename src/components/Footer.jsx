@@ -44,6 +44,7 @@ export default function Footer() {
             <h4>Contact</h4>
             <ul>
               <li><a href={`mailto:${practice.email}`}>{practice.email}</a></li>
+              <li><a href={practice.phoneHref}>{practice.phone}</a></li>
               <li>{practice.location}</li>
             </ul>
           </div>
