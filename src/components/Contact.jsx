@@ -19,10 +19,6 @@ export default function Contact() {
                 <a href={`mailto:${practice.email}`}>{practice.email}</a>
               </li>
               <li>
-                <span className="contact-label">Phone</span>
-                <a href={`tel:${practice.phone.replace(/[^+\d]/g, '')}`}>{practice.phone}</a>
-              </li>
-              <li>
                 <span className="contact-label">Location</span>
                 <p>{practice.location} · By appointment</p>
               </li>
