@@ -23,8 +23,7 @@ export const clinician = {
 };
 
 export const practiceAbout = [
-  'Mind Smith Consulting is built on a simple conviction: no one is only their diagnosis, their record, or their hardest season. Recovery and change are possible when people receive care that is skilled, honest, and deeply respectful.',
-  'Our work sits at the intersection of mental health, substance use, and the justice system — the place where people with co-occurring needs are too often overlooked. We meet adults where they are, connect them to the right level of care, and help them build plans they can actually live with.',
+  'Mind Smith Consulting is built on a simple conviction: no one is only their diagnosis, their record, or their hardest season. Recovery and change are possible when people receive care that is skilled, honest, and deeply respectful.',    'Our work sits at the intersection of mental health, substance use, and the justice system — the place where people with co-occurring needs are too often overlooked. We meet children, adolescents, and adults where they are, connect them to the right level of care — from counseling to intensive outpatient — and help them build plans they can actually live with.',
   'That steadiness comes from decades of clinical and program leadership, and it shows up in every conversation: clear-eyed, patient, and always in service of the whole person.',
 ];
 
@@ -44,12 +43,40 @@ export const commitments = [
 ];
 
 export const focus = [
+  'Adults, adolescents & children',
+  'Adults with serious & persistent mental illness (SMI / SPMI)',
   'Justice-involved & re-entry adults',
   'Mental health court participants',
-  'Adults with co-occurring mental health & substance use needs',
-  'Medicaid & uninsured adults',
+  'People with co-occurring mental health & substance use needs',
+  'Medicaid & uninsured clients',
   'Counselors seeking supervision',
   'Agencies, courts & programs',
+];
+
+export const approaches = [
+  'Client-centered therapy',
+  'Cognitive behavioral therapy (CBT)',
+  'Trauma-focused CBT',
+  'Family systems',
+  'Solution-focused therapy',
+  'Outcomes-oriented therapy',
+];
+
+export const clinicalFocus = [
+  'Anxiety disorders',
+  'Mood disorders',
+  'PTSD & trauma',
+  'ADD / ADHD',
+  'Adjustment disorders',
+  'Attachment disorders',
+  'Disruptive behavior disorders',
+  'Impulse disorders',
+  'Personality disorders',
+  'Schizophrenia',
+  'Substance abuse & dependence',
+  'Physical abuse recovery',
+  'Sexual abuse recovery — children & adults',
+  'Sexual disorders',
 ];
 
 export const services = [
@@ -57,12 +84,12 @@ export const services = [
     num: '01',
     title: 'Mental Health Counseling',
     summary:
-      'Confidential, person-centered counseling for adults navigating anxiety, depression, trauma, grief, and life transitions — including the stress of court involvement and re-entry.',
+      'Confidential, person-centered counseling for children, adolescents, and adults — grounded in client-centered, cognitive-behavioral (CBT), trauma-focused, and solution-focused approaches.',
     items: [
-      'Individual counseling for adults',
-      'Anxiety, depression, trauma & grief',
-      'Life transitions and stress',
-      'Support for co-occurring (dual) diagnoses',
+      'Individual, couples, family & group therapy',
+      'Anxiety, mood disorders, PTSD, ADHD & adjustment concerns',
+      'Serious mental illness (SMI / SPMI) support',
+      'Co-occurring (dual) diagnoses',
     ],
   },
   {
@@ -71,9 +98,9 @@ export const services = [
     summary:
       'Recovery-oriented counseling that meets people where they are — with honesty, accountability, and a clear path forward built around their goals.',
     items: [
-      'Recovery & relapse-prevention counseling',
+      'Individual, family & group recovery counseling',
+      'Intensive outpatient (IOP) services',
       'Dual-diagnosis motivational interviewing',
-      'Person-centered planning for Medicaid & uninsured clients',
       'Connection to sober housing, employment & family services',
     ],
   },

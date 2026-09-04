@@ -12,8 +12,9 @@ export default function Hero() {
             <em>Restoring lives.</em>
           </h1>
           <p className="hero-lede">
-            A behavioral health practice supporting adults navigating mental health challenges, substance use, and the
-            road back from justice involvement — with care that treats the whole person.
+            A behavioral health practice supporting children, adolescents, and adults navigating mental health
+            challenges, substance use, and the road back from justice involvement — with care that treats the whole
+            person.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-gold">

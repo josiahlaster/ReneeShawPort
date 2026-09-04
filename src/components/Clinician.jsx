@@ -20,8 +20,10 @@ export default function Clinician() {
             <p className="portrait-role">{clinician.role}</p>
             <ul className="portrait-creds">
               <li>30+ years in behavioral health &amp; criminal justice</li>
-              <li>Active North Carolina licenses</li>
-              <li>Mental health court program leadership</li>
+              <li>Active North Carolina licenses · NPI #1952859688</li>
+              <li>Serves adults, adolescents &amp; children</li>
+              <li>Individual, couples, family, group &amp; intensive outpatient care</li>
+              <li>ADA-compliant office · clients with vision, developmental &amp; physical disabilities welcome</li>
               <li>Clinical supervision across licensure pathways</li>
             </ul>
           </aside>

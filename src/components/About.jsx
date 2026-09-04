@@ -1,4 +1,4 @@
-import { practiceAbout, commitments, focus } from '../data/site.js';
+import { practiceAbout, commitments, focus, approaches, clinicalFocus } from '../data/site.js';
 
 export default function About() {
   return (
@@ -19,6 +19,24 @@ export default function About() {
               <ul className="focus-chips">
                 {focus.map((f) => (
                   <li key={f}>{f}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="focus-block">
+              <h3>Approaches we practice</h3>
+              <ul className="focus-chips">
+                {approaches.map((a) => (
+                  <li key={a}>{a}</li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="focus-block">
+              <h3>Areas of clinical focus</h3>
+              <ul className="focus-chips">
+                {clinicalFocus.map((c) => (
+                  <li key={c}>{c}</li>
                 ))}
               </ul>
             </div>
