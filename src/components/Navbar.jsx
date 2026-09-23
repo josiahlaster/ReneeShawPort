@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav className="navbar container">
         <a href="#home" className="brand" onClick={() => setOpen(false)}>
           <span className="brand-mark" aria-hidden="true">
-            MS
+            <img src="/logo.png" alt="" width="512" height="512" loading="eager" />
           </span>
           <span className="brand-text">
             <strong>Mind Smith</strong>

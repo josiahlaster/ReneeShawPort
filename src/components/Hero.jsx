@@ -28,10 +28,7 @@ export default function Hero() {
 
         <aside className="hero-card">
           <span className="hero-monogram" aria-hidden="true">
-            {practice.name
-              .split(' ')
-              .map((w) => w[0])
-              .join('')}
+            <img src="/logo.png" alt="" width="512" height="512" loading="eager" />
           </span>
           <h3>{practice.name}</h3>
           <p className="hero-card-sub">{practice.tagline}</p>

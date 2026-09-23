@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <span className="brand-mark" aria-hidden="true">
-              MS
+              <img src="/logo.png" alt="" width="512" height="512" loading="lazy" />
             </span>
             <div className="brand-text">
               <strong>Mind Smith</strong>

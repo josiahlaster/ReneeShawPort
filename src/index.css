@@ -6,17 +6,17 @@
    ============================================================ */
 
 :root {
-  --navy: #1c2a54;
-  --navy-2: #26356b;
-  --navy-deep: #0f1735;
+  --navy: #124d38;
+  --navy-2: #1a6247;
+  --navy-deep: #06231a;
 
-  --ink: #333a4d;
-  --muted: #5c6478;
+  --ink: #2c3b33;
+  --muted: #5a6b60;
 
   --paper: #faf8f2;
   --white: #ffffff;
-  --mist: #eef1fa;
-  --mist-2: #e1e6f4;
+  --mist: #ecf4ee;
+  --mist-2: #dcebe0;
 
   --gold: #c9a227;
   --gold-deep: #96750f;
@@ -29,8 +29,8 @@
   --serif2: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 
-  --shadow-soft: 0 18px 40px -30px rgba(20, 28, 60, 0.35);
-  --shadow-card: 0 14px 34px -26px rgba(20, 28, 60, 0.35);
+  --shadow-soft: 0 18px 40px -30px rgba(6, 35, 26, 0.35);
+  --shadow-card: 0 14px 34px -26px rgba(6, 35, 26, 0.35);
 }
 
 * {
@@ -200,7 +200,7 @@ main section {
 .btn-cream:hover {
   background: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 12px 24px -14px rgba(15, 23, 53, 0.5);
+  box-shadow: 0 12px 24px -14px rgba(6, 35, 26, 0.5);
 }
 
 /* ---------- Navbar ---------- */
@@ -230,18 +230,16 @@ main section {
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
-  background: var(--navy);
-  color: var(--gold);
-  display: grid;
-  place-items: center;
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.02em;
+  width: 44px;
+  height: 44px;
   flex: none;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 1px 2px rgba(6, 35, 26, 0.18));
 }
 
 .brand-text {
@@ -349,7 +347,7 @@ main section {
 .hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(155deg, #0f1735 0%, #1c2a54 55%, #2b3b74 100%);
+  background: linear-gradient(155deg, #06231a 0%, #124d38 55%, #1a6247 100%);
   padding: 104px 0 0;
 }
 
@@ -423,17 +421,16 @@ main section {
 .hero-monogram {
   display: grid;
   place-items: center;
-  width: 74px;
-  height: 74px;
+  width: 86px;
+  height: 86px;
   margin-bottom: 22px;
-  border: 1px solid rgba(229, 205, 126, 0.6);
-  border-radius: 50%;
-  background: rgba(229, 205, 126, 0.08);
-  font-family: var(--serif);
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: #e5cd7e;
+}
+
+.hero-monogram img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
 }
 
 .hero-card h3 {
@@ -660,7 +657,7 @@ main section {
   font-weight: 700;
   letter-spacing: 0.08em;
   border: 4px solid var(--gold-pale);
-  box-shadow: 0 14px 28px -18px rgba(15, 23, 53, 0.6);
+  box-shadow: 0 14px 28px -18px rgba(6, 35, 26, 0.6);
 }
 
 .portrait-card h3 {
@@ -823,7 +820,7 @@ main section {
 .service-card:hover {
   transform: translateY(-5px);
   border-color: rgba(201, 162, 39, 0.45);
-  box-shadow: 0 26px 50px -30px rgba(20, 28, 60, 0.4);
+  box-shadow: 0 26px 50px -30px rgba(6, 35, 26, 0.4);
 }
 
 .svc-num {
@@ -934,7 +931,7 @@ main section {
 .contact {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(160deg, #0f1735, #1c2a54 70%, #223260);
+  background: linear-gradient(160deg, #06231a, #124d38 70%, #17543e);
   color: #ece7d6;
 }
 
@@ -1030,7 +1027,7 @@ main section {
 
 .contact-cta > p {
   margin: 14px 0 24px;
-  color: rgba(15, 23, 53, 0.82);
+  color: rgba(6, 35, 26, 0.82);
   font-size: 15.5px;
   line-height: 1.75;
 }
@@ -1041,7 +1038,7 @@ main section {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(15, 23, 53, 0.65);
+  color: rgba(6, 35, 26, 0.65);
 }
 
 .crisis-note {
@@ -1063,7 +1060,7 @@ main section {
 /* ---------- Footer ---------- */
 
 .footer {
-  background: #0d1430;
+  background: #04150f;
   color: rgba(236, 231, 214, 0.72);
   padding: 72px 0 32px;
 }
@@ -1211,7 +1208,7 @@ main section {
     background: var(--paper);
     border-bottom: 1px solid var(--line);
     padding: 14px 24px 22px;
-    box-shadow: 0 24px 40px -30px rgba(20, 28, 60, 0.4);
+    box-shadow: 0 24px 40px -30px rgba(6, 35, 26, 0.4);
   }
 
   .nav-links.open {
