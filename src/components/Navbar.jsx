@@ -20,7 +20,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="" width="512" height="512" loading="eager" />
           </span>
           <span className="brand-text">
-            <strong>Mind Smith</strong>
+            <strong>Mindsmith</strong>
             <em>Consulting</em>
           </span>
         </a>

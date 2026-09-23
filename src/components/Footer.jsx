@@ -10,7 +10,7 @@ export default function Footer() {
               <img src="/logo.png" alt="" width="512" height="512" loading="lazy" />
             </span>
             <div className="brand-text">
-              <strong>Mind Smith</strong>
+              <strong>Mindsmith</strong>
               <em>Consulting</em>
             </div>
             <p>
@@ -52,7 +52,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} Mind Smith Consulting. All rights reserved.
+            © {new Date().getFullYear()} Mindsmith Consulting. All rights reserved.
           </p>
           <p>
             {clinician.name}, {clinician.credentials} · {practice.location}

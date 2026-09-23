@@ -1,7 +1,7 @@
-// Single source of truth: content for the Mind Smith Consulting clinical site.
+// Single source of truth: content for the Mindsmith Consulting clinical site.
 
 export const practice = {
-  name: 'Mind Smith Consulting',
+  name: 'Mindsmith Consulting',
   tagline: 'Counseling · Supervision · Consulting',
   location: 'Durham, North Carolina',
   email: 'info@mindsmithconsulting.org',
@@ -12,19 +12,19 @@ export const practice = {
 export const clinician = {
   name: 'Carolyn Renee Shaw',
   credentials: 'MS · LCMHC-S · LCAS (CCS-I)',
-  role: 'Founder, Mind Smith Consulting',
+  role: 'Founder, Mindsmith Consulting',
   initials: 'CRS',
   bio: [
     'Carolyn Renee Shaw has spent more than thirty years in behavioral health and the criminal-justice system, and holds two active North Carolina licenses: Licensed Clinical Mental Health Counselor Supervisor (LCMHC-S) and Licensed Clinical Addiction Specialist (LCAS), with a Certified Clinical Supervisor-Intern credential.',
     'Since 2017 she has served as Criminal Justice Program Manager for Durham County — leading mental health court operations, conducting comprehensive clinical assessments, overseeing substance-use counselors and peer-support staff, and chairing the county\u2019s Stepping Up Initiative to reduce justice involvement for people with mental health diagnoses.',
-    'Earlier, she directed mental health and substance-abuse community support programs and supervised clinicians across adult and youth divisions. At Mind Smith Consulting, she brings that full depth of experience to clients seeking counseling, to counselors under supervision, and to the courts and agencies working toward better behavioral-health outcomes.',
+    'Earlier, she directed mental health and substance-abuse community support programs and supervised clinicians across adult and youth divisions. At Mindsmith Consulting, she brings that full depth of experience to clients seeking counseling, to counselors under supervision, and to the courts and agencies working toward better behavioral-health outcomes.',
   ],
   quote:
     'A passion for encouraging positive relationships for justice-involved adults leads me to constantly seek innovative ideas for their achievement.',
 };
 
 export const practiceAbout = [
-  'Mind Smith Consulting is built on a simple conviction: no one is only their diagnosis, their record, or their hardest season. Recovery and change are possible when people receive care that is skilled, honest, and deeply respectful.',    'Our work sits at the intersection of mental health, substance use, and the justice system — the place where people with co-occurring needs are too often overlooked. We meet children, adolescents, and adults where they are, connect them to the right level of care — from counseling to intensive outpatient — and help them build plans they can actually live with.',
+  'Mindsmith Consulting is built on a simple conviction: no one is only their diagnosis, their record, or their hardest season. Recovery and change are possible when people receive care that is skilled, honest, and deeply respectful.',    'Our work sits at the intersection of mental health, substance use, and the justice system — the place where people with co-occurring needs are too often overlooked. We meet children, adolescents, and adults where they are, connect them to the right level of care — from counseling to intensive outpatient — and help them build plans they can actually live with.',
   'That steadiness comes from decades of clinical and program leadership, and it shows up in every conversation: clear-eyed, patient, and always in service of the whole person.',
 ];
 
@@ -136,7 +136,7 @@ export const steps = [
     num: '1',
     title: 'Reach out',
     detail:
-      'Call or email Mind Smith Consulting for a confidential conversation about what you are hoping for.',
+      'Call or email Mindsmith Consulting for a confidential conversation about what you are hoping for.',
   },
   {
     num: '2',

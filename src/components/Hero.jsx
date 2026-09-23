@@ -1,4 +1,4 @@
-import { practice, licenses } from '../data/site.js';
+import { practice } from '../data/site.js';
 
 export default function Hero() {
   return (
@@ -27,18 +27,13 @@ export default function Hero() {
         </div>
 
         <aside className="hero-card">
-          <span className="hero-monogram" aria-hidden="true">
-            <img src="/logo.png" alt="" width="512" height="512" loading="eager" />
-          </span>
-          <h3>{practice.name}</h3>
-          <p className="hero-card-sub">{practice.tagline}</p>
-          <ul className="hero-creds">
-            {licenses.map((l) => (
-              <li key={l.name}>{l.detail}</li>
-            ))}
-            <li>M.S. Counseling Studies · Capella University</li>
-            <li>{practice.location} · By appointment</li>
-          </ul>
+          <img
+            src="/hero-lockup.png"
+            alt="Mindsmith Consulting"
+            width="500"
+            height="500"
+            loading="eager"
+          />
         </aside>
       </div>
 
